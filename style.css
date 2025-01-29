@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body {}
+
+.navbar {
+
+    background-color: rgb(63, 9, 102);
+
+    padding: 10px;
+}
+
+.logo {
+    text-align: center;
+
+}
+
+.logo img {
+    width: 165px;
+
+}
+
+.buttons2 {
+    border: 1px solid;
+}
+
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 10px;
+    color: white;
+}
+
+.main-head h1 {
+    font-size: 45px;
+    color: rgb(222, 159, 2);
+    text-align: center;
+}
+
+.placed-students-icon {
+    text-align: center;
+
+    padding: 10px 0;
+}
+
+.section-1 {
+    background-color: blueviolet;
+}
+
+.main-head h2 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.buttons2 {
+    display: flex;
+    justify-content: center;
+}
+
+.our-courses {
+    padding: 20px 10px;
+}
+
+.buttons2 button {
+    color: white;
+    background-color: rgb(63, 9, 102);
+    border: 1px solid;
+    padding: 10px 20px;
+    border-radius: 14px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.buttons1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+
+
+.our-courses h2 {
+    color: rgb(63, 9, 102);
+}
+
+.buttons2 {
+    display: flex;
+
+}
+
+.net:hover {
+    border: 1px solid gold;
+    border-radius: 11px;
+    padding: 10px 60px;
+}
+
+
+
+.courses {
+    border: 1px solid;
+    border-radius: 11px;
+    margin: 10px 0;
+}
+
+.courses:hover {
+    border-color: yellow;
+}
+
+.courses>img {
+    width: 200px;
+    height: 150px;
+
+    object-fit: contain;
+
+    transition-property: scale;
+    transition-duration: 1s;
+}
+
+.courses>img:hover {
+    scale: 1.1;
+}
+
+
+
+@media (min-width:600px) {}
+
+
+@media (min-width:900px) {
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu {}
+
+    .main-head h1 {
+        font-size: 81px;
+        margin: 60px;
+
+    }
+
+    .courses-container {
+        display: flex;
+        gap: 20px;
+
+        flex-wrap: wrap;
+
+        justify-content: center;
+    }
+}
