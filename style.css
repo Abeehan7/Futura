@@ -3,10 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(63, 9, 102);
 
 }
-
-body {}
 
 .navbar {
 
@@ -25,11 +24,6 @@ body {}
 
 }
 
-.buttons2 {
-    border: 1px solid;
-}
-
-
 
 .menu {
     display: flex;
@@ -39,6 +33,8 @@ body {}
     color: white;
 }
 
+/* section-1 */
+
 .main-head h1 {
     font-size: 45px;
     color: rgb(222, 159, 2);
@@ -47,32 +43,61 @@ body {}
 
 .placed-students-icon {
     text-align: center;
-
     padding: 10px 0;
 }
 
+.placed-students-icon:hover {
+    scale: 1.2;
+}
+
 .section-1 {
-    background-color: blueviolet;
+    background-color: rgb(75, 10, 122);
+    padding: 50px 50px 0px 50px;
 }
 
 .main-head h2 {
+    padding: 20px;
     font-size: 20px;
     color: white;
     text-align: center;
 }
 
-.buttons2 {
-    display: flex;
-    justify-content: center;
+.boy-girl {
+    text-align: center;
+    padding-top: 20px;
 }
 
-.our-courses {
+.boy-girl>img {
+    width: 500px;
+    transition-property: scale;
+    transition-duration: 1s;
+}
+
+.boy-girl>img:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+
+/* section-2 */
+
+.exploreour {
+    padding-bottom: 20px;
+}
+
+.content {
+    text-align: center;
     padding: 20px 10px;
 }
 
-.buttons2 button {
+.buttons1 :hover {
+    color: rgb(75, 10, 122);
+    background-color: white;
+}
+
+.buttons1 button {
     color: white;
-    background-color: rgb(63, 9, 102);
+    background-color: rgb(75, 10, 122);
     border: 1px solid;
     padding: 10px 20px;
     border-radius: 14px;
@@ -87,33 +112,39 @@ body {}
 
 }
 
-
-
-.our-courses h2 {
-    color: rgb(63, 9, 102);
-}
-
 .buttons2 {
     display: flex;
 
 }
 
-.net:hover {
-    border: 1px solid gold;
-    border-radius: 11px;
-    padding: 10px 60px;
+.buttons2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
+.buttons2 button {
+    border: 1px solid rgb(63, 9, 102);
+    border-radius: 21px;
+    padding: 7px 20px;
+    cursor: pointer;
+    /* font-weight: bold; */
+}
 
+.buttons2 :hover {
+    color: white;
+    background-color: rgb(75, 10, 122);
+}
 
 .courses {
-    border: 1px solid;
+    text-align: center;
+    border: 1px solid rgb(224, 224, 224);
     border-radius: 11px;
     margin: 10px 0;
 }
 
 .courses:hover {
-    border-color: yellow;
+    border: 1px solid yellow;
 }
 
 .courses>img {
@@ -128,6 +159,39 @@ body {}
 
 .courses>img:hover {
     scale: 1.1;
+}
+
+.section-2 {
+    padding: 30px;
+
+}
+
+.com-button {
+    text-align: center;
+}
+
+.com-button button {
+    padding: 10px 20px;
+    border: 1px solid rgb(63, 9, 102);
+    border-radius: 11px;
+}
+
+.com-button :hover {
+    color: white;
+    background-color: rgb(75, 10, 122);
+}
+
+/* Section-3 */
+.section-3{
+
+}
+
+.training-and-certification>img{
+    width: 400px;
+}
+.training-and-certification{
+    padding: 20px 10px;
+    text-align: center;
 }
 
 
