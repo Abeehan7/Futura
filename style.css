@@ -182,18 +182,56 @@
 }
 
 /* Section-3 */
-.section-3{
-
+.section-3 {
+    padding: 30px;
 }
 
-.training-and-certification>img{
-    width: 400px;
+.training-and-certification>img {
+    width: 300px;
 }
-.training-and-certification{
+
+.training-and-certification {
     padding: 20px 10px;
     text-align: center;
 }
 
+.students,
+.placements,
+.trainers,
+.experience {
+    text-align: center;
+    padding: 15px;
+    font-size: large;
+}
+
+/* Section-4 */
+.section-4 {
+    padding: 30px;
+}
+
+.why-choose-us {
+    text-align: center;
+}
+
+.trainers>img {
+    width: 400px;
+}
+
+.experienced-trainers {
+    text-align: center;
+}
+
+.more-than-40 {
+    text-align: center;
+}
+
+.moreThan {
+    text-align: center;
+}
+
+.moreThan>img {
+    width: 400px;
+}
 
 
 @media (min-width:600px) {}
@@ -221,5 +259,11 @@
         flex-wrap: wrap;
 
         justify-content: center;
+    }
+
+    .details {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
     }
 }
