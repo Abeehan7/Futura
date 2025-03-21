@@ -7,21 +7,25 @@
 
 }
 
+p {
+    color: gray;
+}
+
+button {
+    margin: 20px;
+}
+
 .navbar {
-
     background-color: rgb(63, 9, 102);
-
     padding: 10px;
 }
 
 .logo {
     text-align: center;
-
 }
 
 .logo img {
     width: 165px;
-
 }
 
 
@@ -68,7 +72,7 @@
 }
 
 .boy-girl>img {
-    width: 500px;
+    width: 100%;
     transition-property: scale;
     transition-duration: 1s;
 }
@@ -80,14 +84,14 @@
 
 
 /* section-2 */
-
-.exploreour {
-    padding-bottom: 20px;
+.section-2>.content {
+    padding: 80px 120px 10px;
+    text-align: center;
 }
 
-.content {
-    text-align: center;
-    padding: 20px 10px;
+.courses-container {
+    padding: 0px 120px 10px;
+
 }
 
 .buttons1 :hover {
@@ -109,12 +113,10 @@
     display: flex;
     justify-content: center;
     gap: 20px;
-
 }
 
 .buttons2 {
     display: flex;
-
 }
 
 .buttons2 {
@@ -161,33 +163,32 @@
     scale: 1.1;
 }
 
-.section-2 {
-    padding: 30px;
-
-}
-
-.com-button {
-    text-align: center;
-}
-
-.com-button button {
-    padding: 10px 20px;
-    border: 1px solid rgb(63, 9, 102);
-    border-radius: 11px;
-}
-
-.com-button :hover {
+.buttons3 :hover {
     color: white;
     background-color: rgb(75, 10, 122);
 }
 
+.buttons3 button {
+    background-color: white;
+    border: 1px solid;
+    padding: 10px 20px;
+    border-radius: 14px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.buttons3 {
+    text-align: center;
+}
+
 /* Section-3 */
 .section-3 {
-    padding: 30px;
+    padding: 80px 120px 10px;
+    text-align: center;
 }
 
 .training-and-certification>img {
-    width: 300px;
+    width: 100%;
 }
 
 .training-and-certification {
@@ -206,7 +207,7 @@
 
 /* Section-4 */
 .section-4 {
-    padding: 30px;
+    padding: 80px 120px;
 }
 
 .why-choose-us {
@@ -214,7 +215,7 @@
 }
 
 .trainers>img {
-    width: 400px;
+    width: 100%;
 }
 
 .experienced-trainers {
@@ -225,23 +226,176 @@
     text-align: center;
 }
 
-.moreThan {
+.we-are-accredited {
     text-align: center;
 }
 
-.moreThan>img {
-    width: 400px;
+.accredited{
+    width: 100%;
+}
+
+/* section-5 */
+.section-5 {
+    background-color: rgb(75, 10, 122);
+    padding: 50px 120px;
+}
+
+.our-process {
+    text-align: center;
+}
+
+.our-process>p,
+.our-process>h2 {
+    color: rgb(224, 224, 224);
+
+}
+
+/* section-6 */
+.section-6 {
+    padding: 50px 120px;
+    text-align: center;
+}
+
+.placementImages {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.placedAt {
+    text-align: center;
+    border-radius: 11px;
+    margin: 10px 0;
+}
+
+.placedAt>img {
+    /* width: 200px;
+    height: 150px; */
+    width: 100%;
+    object-fit: contain;
+    transition-property: scale;
+    transition-duration: 1s;
+}
+
+.placedAt>img:hover {
+    scale: 1.1;
+}
+
+/* section 7 */
+.section-7 {
+    background-color: rgb(75, 10, 122);
+    text-align: center;
+    padding: 50px 120px;
+}
+
+.futuraAlumni>p,
+.futuraAlumni>h2 {
+    color: rgb(224, 224, 224);
+}
+
+/* section 8 */
+.section-8 {
+    text-align: center;
+    padding: 50px 120px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.contactUsNow {
+    background-color: rgb(75, 10, 122);
+    border-radius: 20px;
+    width: 500px;
+    padding: 50px 100px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.join>p,
+.join>h1 {
+    color: rgb(224, 224, 224);
+}
+
+.sreeraj{
+    width: 100%;
 }
 
 
-@media (min-width:600px) {}
+/* section 9 */
+.section-9 {
+    text-align: center;
+    padding: 50px 120px;
+}
+
+.googleRating{
+    width: 100%;
+}
+
+/* section 10 */
+.section-10 {
+    text-align: center;
+    padding: 50px 120px;
+    background-color: rgb(75, 10, 122);
+}
+
+.content1>p,
+.content1>h1 {
+    color: white;
+}
+
+.faq>img:hover {
+    scale: 1.1;
+}
+
+.faq>img {
+    width: 100%;
+    transition-property: scale;
+    transition-duration: 1s;
+}
+
+.fill>input {
+    padding: 8px 10px;
+    background-color: blueviolet;
+    border-radius: 9px;
+    border-style: none;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.girlWithLaptop{
+    width: 100%;
+}
+
+
 
 
 @media (min-width:900px) {
 
+    /* navbar */
     .navbar {
         display: flex;
         justify-content: space-between;
+    }
+
+    /* section 1 */
+    .section-1 {
+        padding-bottom: 40px;
+    }
+
+    .sec-1 {
+        display: flex;
+        align-items: center;
+    }
+
+    .main-head>h1 {
+        text-align: left;
+    }
+
+    .boy-girl>img {
+        width: 800px;
     }
 
     .menu {}
@@ -255,15 +409,70 @@
     .courses-container {
         display: flex;
         gap: 20px;
-
         flex-wrap: wrap;
-
         justify-content: center;
     }
 
+
+    /* section 3 */
+    .sec-3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .training-and-certification>img {
+        width: 400px;
+    }
+
+    .training-and-certification {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 1;
+    }
+
+    .part {
+        flex: 1;
+    }
+
+    .part-1 {
+        display: flex;
+        align-items: center;
+    }
+
+    .part-2 {
+        display: flex;
+        align-items: center;
+    }
+
+    .com-button {
+        margin: 20px;
+        text-align: start;
+    }
+
+    .about-us2 {
+        flex: 1;
+        text-align: start;
+        justify-content: start;
+    }
+
+    /* section 4 */
     .details {
         display: flex;
         justify-content: center;
-        gap: 10px;
+        align-items: center;
+        gap: 40px;
     }
+
+    .experienced-trainers {
+        text-align: start;
+    }
+
+    .more-than-40 {
+        text-align: start;
+    }
+
+
 }
