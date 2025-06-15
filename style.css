@@ -382,20 +382,45 @@ button {
     text-align: center;
     background-color: rgb(63, 9, 102);
 }
-.section-12 h1{
+
+.section-12 h1 {
     color: rgb(224, 224, 224);
-    margin-top: 10px;  
+    margin-top: 10px;
 }
-.section-12 p{
+
+.section-12 p {
     color: rgba(224, 224, 224, 0.708);
 }
 
-.icon{
+.icon {
+    margin-top: 5px;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
+    padding-bottom: 30px;
 }
 
+.joinNowBox {
+    background-color: rgb(222, 159, 2);
+    padding: 10px;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+}
+
+.end h1 {
+    color: rgb(224, 224, 224);
+    font-size: medium;
+}
+
+
+
+.line {
+    border: 1px solid rgba(224, 224, 224, 0.555);
+    margin: 40px;
+}
 
 
 
